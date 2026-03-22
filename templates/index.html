@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Driver Drowsiness Detection</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<h1>🚗 Driver Drowsiness Detection</h1>
+
+<div class="container">
+    <img src="/video" id="videoFeed">
+
+    <div class="metrics">
+        <p>EAR: <span id="ear">0</span></p>
+        <p>MAR: <span id="mar">0</span></p>
+    </div>
+
+    <div id="statusText" class="status active">
+        ACTIVE ✅
+    </div>
+</div>
+
+<audio id="alarmSound" src="/static/alarm.wav"></audio>
+
+<script src="/static/app.js"></script>
+
+</body>
+</html>
